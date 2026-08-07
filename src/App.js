@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import PropsContainer from './props/PropsContainer';
 
 function App() {
   return (
     <>
-      <p>Hello, World!</p>
+      <PropsContainer/>
     </>
   );
 }
