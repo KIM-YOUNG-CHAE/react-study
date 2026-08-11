@@ -1,10 +1,10 @@
 import './App.css';
-import PropsContainer from './props/PropsContainer';
+import Toggle from './state/Toggle';
 
 function App() {
   return (
     <>
-      <PropsContainer/>
+      <Toggle/>
     </>
   );
 }
