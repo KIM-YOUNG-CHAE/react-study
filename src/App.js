@@ -1,10 +1,12 @@
 import './App.css';
-import Toggle from './state/Toggle';
+import AttendanceContainer from './map/normal/AttendanceContainer';
+import Name from './ref/basic/Name';
+
 
 function App() {
   return (
     <>
-      <Toggle/>
+      <Name/>
     </>
   );
 }
