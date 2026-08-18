@@ -1,12 +1,11 @@
 import './App.css';
-import AttendanceContainer from './map/normal/AttendanceContainer';
-import Name from './ref/basic/Name';
+import SideEffect02 from './lifecycle/function/sideeffect/SideEffect02';
 
 
 function App() {
   return (
     <>
-      <Name/>
+      <SideEffect02/>
     </>
   );
 }
