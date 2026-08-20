@@ -1,11 +1,11 @@
 import './App.css';
-import SideEffect02 from './lifecycle/function/sideeffect/SideEffect02';
+import FontSizeContainer from './context/normal/FontSizeContainer';
 
 
 function App() {
   return (
     <>
-      <SideEffect02/>
+      <FontSizeContainer/>
     </>
   );
 }
