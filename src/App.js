@@ -1,17 +1,15 @@
-import { ThemeProvider } from 'styled-components';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import './App.css';
-import GlobalStyle from './style/globals/global';
-import theme from './style/globals/theme';
-import Icon01 from './style/Icon01';
+import Tanstack02 from './reactquery/Tanstack02';
+
+const queryClient = new QueryClient()
 
 function App() {
   return (
     <>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle/>
-        <Icon01/>
-      </ThemeProvider>
-      
+      <QueryClientProvider client={queryClient}>
+        <Tanstack02/>
+      </QueryClientProvider>
     </>
   );
 }
